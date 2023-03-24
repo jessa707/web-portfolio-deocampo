@@ -1,0 +1,194 @@
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+	font-family: 'Alkatra', cursive;
+}
+
+
+#mynav a:hover{
+	background-color: white;
+	color: Black;
+}
+
+
+.picture figure img {
+	-webkit-filter: grayscale(60%);
+	filter: grayscale(60%);
+		
+}
+
+
+h1, h2, h3, h6 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h4{
+ 
+  font-style: italic;
+  font-family: fantasy;
+}
+
+h5 {
+	font-family: 'Abril Fatface', cursive;
+font-family: 'Alkatra', cursive;
+ margin-top: 10px;
+ margin-bottom: 20px;
+}
+
+.opensans {
+	font-family: 'Open Sans', sans-serif;
+}
+.size1 {
+	font-size: 3rem;
+	font-family: Calibri;
+	text-align: center;
+
+}
+
+.size2 {
+	font-size: 3rem;
+	font-family: Elephant;
+	text-align: left;
+	border-bottom: 2px solid #463f3a;
+
+
+}
+
+.size0 {
+	font-size: 3rem;
+font-family: 'Alkatra', cursive;
+
+}
+
+.size1 {
+	margin-left: 5%;
+
+
+
+}
+
+
+ul {
+	list-style: none;
+}
+
+
+.ulstyle {
+	list-style: square;
+}
+
+#lir {
+	float: right;
+}
+
+#lil {
+	float: left;
+}
+
+.footerfont
+
+{
+	font-size: 1.3rem;
+	font-family: Century Gothic;
+	text-align: center;
+	background-color: #0a0908;
+}
+
+.icon {
+	width: 30px;
+	height: 30px; 
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+span {
+	font-size: 15px;
+	padding: auto;
+
+}
+/*gallery */
+
+.gallery-container {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.thumbnail {
+  display: block;
+  margin-bottom: 20px;
+  line-height: 0;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.thumbnail img {
+  width: 110%;
+  height: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .thumbnail {
+    margin-right: 0;
+  }
+}
+
+.card-body {
+font-family: Calibri;
+	text-align: center;
+}
+
+.card-text {
+	font-family: Calibri;
+	text-align: center;
+
+}
+
+footer {
+  margin: 50px 0;
+}
+
+ /*====ANIMATION=====*/
+
+h1 {
+  color: hsl(0, 0%, 28%);
+  font-size: 50px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 7px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+h1 {
+  padding: 64px;
+  background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 600px;
+  }
+  100% {
+    background-position: 600px;
+  }
+}
+
+
+/*====================*/
+ 
+
+
+
